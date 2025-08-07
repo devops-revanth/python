@@ -44,7 +44,41 @@ while count < 3:
 
 
 
-def server_disk(disk):
-    print("Server disk size is " , disk)
+# def server_disk(disk):
+#     print("Server disk size is " , disk)
 
-server_disk("/")
+# server_disk("/")
+
+
+
+
+
+
+
+def check_disk(d):
+    print("Disk usage for: " , d)
+
+check_disk("/")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
