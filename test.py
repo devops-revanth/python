@@ -9,10 +9,10 @@ hostname="mytestvm"
 
 print("Disk Usage is High")
 
-name=input("Enter your server name: ")
-print("Running health check on: ", name)
+# name=input("Enter your server name: ")
+# print("Running health check on: ", name)
 
-cpu=80
+#cpu=80
 
 if cpu > 90:
     print("CPU utilization is High")
