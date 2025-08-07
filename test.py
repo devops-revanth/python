@@ -20,3 +20,8 @@ elif cpu > 90:
     print("Cpu utilization reached warning stage")
 else:
     print("CPU utilization is under threshold")
+
+
+disks=["/" , "/boot"]
+for d in disks:
+    print("Checking the disks:" , d)
