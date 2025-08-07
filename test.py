@@ -25,3 +25,14 @@ else:
 disks=["/" , "/boot"]
 for d in disks:
     print("Checking the disks:" , d)
+
+
+
+count=0
+
+while count < 3:
+    print("Checking logs...")
+    
+    count += 1 # same as "count = count + 1"
+
+
