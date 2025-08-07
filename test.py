@@ -36,3 +36,8 @@ while count < 3:
     count += 1 # same as "count = count + 1"
 
 
+def check_disk(disk):
+    print("Checking usage of disk" , disk)
+    print(type(check_disk))
+
+check_disk("/")
