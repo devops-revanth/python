@@ -12,7 +12,7 @@ B = "World"
 #Len
 #Replace
 
-length = text.len()
+length = text.len(text)
 split = text.split(" ")
 lower = text.lower()
 upper = text.upper()
