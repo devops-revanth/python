@@ -30,7 +30,7 @@ strip = Strip_text.strip()
 print(strip)
 
 Text = "Python is awesome"
-substring = is
-if substring is in Text:
-    print(substring , in your text)
+substring = "is"
+if substring in Text:
+    print(substring , "found in your text")
 
