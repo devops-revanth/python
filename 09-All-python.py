@@ -1,36 +1,36 @@
-text = "Python is awesome"
-
-A = "Hello"
-B = "World"
-
 #Concatination
-#Split
-#Substring
+#Len
 #Upper
 #Lower
 #Strip
-#Len
+#Split
 #Replace
+#Substring
+
+text = "This is my first python script"
 
 length = len(text)
-print("Length of text:" , length)
-split = text.split(" ")
-print("Text after using split in-buit function", split)
+print("Length of the text:" , length)
+
+str1 = "Hello"
+str2 = "World"
+concat = str1 + " " + str2
+print(concat)
+
+upper = text.upper()
+print("Upper :" , upper)
+
 lower = text.lower()
 print("Lower :" , lower)
-upper = text.upper()
-print("Upper:", upper)
-replace = text.replace("awesome" , "fun")
-print(replace)
-Concatination = A + " " + B
-print(Concatination)
 
-Strip_text = "         Python did well for strip          "
-strip = Strip_text.strip()
-print(strip)
+
+split = text.split()
+print("Lets split" , split)
+
+replace_text = ("first" , "second")
+print(replace_text)
 
 Text = "Python is awesome"
 substring = "is"
 if substring in Text:
-    print(substring , "found in your text")
-
+    print(substring , "Found in Text")
