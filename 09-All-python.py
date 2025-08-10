@@ -27,7 +27,7 @@ print("Lower :" , lower)
 split = text.split()
 print("Lets split" , split)
 
-replace_text = ("first" , "second")
+replace_text = text.replace("first" , "second")
 print(replace_text)
 
 Text = "Python is awesome"
