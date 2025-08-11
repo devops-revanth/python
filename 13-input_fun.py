@@ -8,4 +8,4 @@ def multiplication(num1 , num2):
     mil = num1 * num2
     return mul
 
-print(add(num1=10 , num2=5))
+print(add(10 , 5))
