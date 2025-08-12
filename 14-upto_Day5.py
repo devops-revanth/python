@@ -56,6 +56,7 @@ if substring in text:
 
 a = 10
 b = 3
+c=-5
 
 add = a+b
 sub = a-b
@@ -71,3 +72,12 @@ print(div)
 
 r= round(div , 2)
 print(r)
+
+
+mod = a%b
+divi=a//b
+abs=abs(c)
+
+print(mod)
+print(divi)
+print(abs)
