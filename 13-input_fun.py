@@ -9,3 +9,7 @@ def multiplication(num1 , num2):
     return mul
 
 print(addition(10 , 5))
+
+print(subtraction(10 , 5))
+
+print(multiplication(2 , 4))
