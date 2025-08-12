@@ -5,6 +5,7 @@ print("Hello World!")
 
 ### Day2 Scripts
 
+### String in-built functions
 ## Concat
 ## Len
 ## Upper
@@ -47,3 +48,19 @@ print("Stripping output  " , strip)
 substring = "is"
 if substring in text:
     print("Substring output : " , substring , "Found in text")
+
+
+#################################################
+
+### Float and integer
+
+a = 10
+b = 3
+
+add = a+b
+sub = a-b
+mul = a*b
+div = a/b
+
+
+
