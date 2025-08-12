@@ -20,27 +20,30 @@ str1 = "Hello"
 str2 = "Raj , Name tho sunavo"
 
 Concat = str1 + str2
-print(Concat)
+print("Concatincation output" , Concat)
 
 
 length = len(text)
 
-print(length)
+print("Length output " ,length)
 
 Upper = text.upper()
 Lower = text.lower()
 
+print("Upper output" , Upper)
+print("Lower output" , Lower)
+
 Split = text.split()
-print(Split)
+print("Split output" , Split)
 
 replace = text.replace("awesome" , "fun")
-print(replace)
+print("Replace out put : " , replace)
 
 raju = "         Raju is a good boy          "
 strip = raju.strip()
 
-print(strip)
+print("Stripping output  " , strip)
 
 substring = "is"
 if substring in text:
-    print(substring , "Found in text")
+    print("Substring output : " , substring , "Found in text")
