@@ -64,3 +64,7 @@ div = a/b
 
 
 
+print(add)
+print(sub)
+print(mul)
+print(div)
