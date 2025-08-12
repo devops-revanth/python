@@ -41,6 +41,6 @@ strip = raju.strip()
 
 print(strip)
 
-substring = is
+substring = "is"
 if substring in text:
     print(substring , "Found in text")
