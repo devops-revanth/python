@@ -68,3 +68,6 @@ print(add)
 print(sub)
 print(mul)
 print(div)
+
+r= print(print(div) , 2)
+print(r)
