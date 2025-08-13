@@ -81,3 +81,26 @@ abs=abs(c)
 print(mod)
 print(divi)
 print(abs)
+
+
+######################################################
+
+##Day3
+my_variable=42
+print(my_variable)
+
+## Local variable
+def my_function():
+    x=10
+    print(x)
+my_function()
+
+## Global variable
+y=20
+def another_function():
+    print(y)
+another_function()
+print(y)
+
+####################################################
+
