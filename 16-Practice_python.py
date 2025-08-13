@@ -68,8 +68,8 @@ print(f"Third result in split with {strip_text} as input and the result is : {sp
 
 substring = "is"
 
-for substring in str:
-    print(f"We are verifying {substring} is in {str} or not -> if you get the result then {substring} is {str}")
+if substring in str:
+    print(f"We are verifying '{substring}' is in '{str}' or not -> if you get the result then '{substring}' is in '{str}'")
 
 
 ## Interget and float
