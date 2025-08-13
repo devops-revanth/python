@@ -107,3 +107,8 @@ num4 = 453.33323232332323
 ## Round
 result_round = round(num4 , 2)
 print(f"{result_round}")
+
+## ABS
+
+result_abs = abs(num3)
+print(f"'{result_abs}")
