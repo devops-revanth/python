@@ -71,3 +71,33 @@ substring = "is"
 for substring in str:
     print(f"We are verifying {substring} is in {str} or not -> if you get the result then {substring} is {str}")
 
+
+## Interget and float
+
+num1 = 10.0
+num2 = 5.0
+
+add = num1 + num2
+print(f"Addition of {num1} and {num2} is : {add}")
+
+sub = num1 - num2
+print(f"Subtraction of {num1} and {num2} is : {sub}")
+
+
+mul = num1 * num2
+print(f"Multiplication of {num1} and {num2} is : {mul}")
+
+div = num1 / num2
+print(f"Division of {num1} and {num2} is : {div}")
+
+fdiv = num1 // num2
+print(f"Floor division of {num1} and {num2} is : {fdiv}")
+
+exp = num1 ** num2
+print(f"Explonention of {num1} and {num2} is : {exp}")
+
+
+mod = num1 % num2
+print(f"Modulas of {num1} and {num2} is : {mod}")
+
+
