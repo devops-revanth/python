@@ -51,6 +51,7 @@ usage={"cpu":70, "mem":60 , "disk":85}
 for key, value in usage.items():
     print(f"{key.upper()} usage = {value}%")
 
+"""
 import time
 service_up = False
 attempt = 0
@@ -58,6 +59,7 @@ while not service_up and attempt < 5:
     print(f"Checking service status ...")
     attempt += 1
     time.sleep(2)
+"""
 
 print(f"Service check completed")
 
@@ -75,6 +77,8 @@ for p in processes:
     print(f"Monitoring process: {p}")
 
 
+# range , enumerage , zip
+
 for i in range(1,6):
     print(f"Checking system{i}")
 
@@ -83,3 +87,10 @@ servers=["web1","db","backup"]
 servers.append("frontend")
 for index, name in enumerate(servers, start=2):
     print(f"{index}.{name}")
+
+
+hosts = ["srv1" , "srv2"]
+status = ["UP" , "DOWN"]
+
+for h,s in zip(hosts, status):
+    print(f"{h} -> {s}")
