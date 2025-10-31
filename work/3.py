@@ -77,3 +77,9 @@ for p in processes:
 
 for i in range(1,6):
     print(f"Checking system{i}")
+
+
+servers=["web1","db","backup"]
+servers.append("frontend")
+for index, name in enumerate(servers, start=1):
+    print(f"{index}.{name}")
