@@ -33,6 +33,7 @@ print(os.listdir())
 print(os.listdir("/var/log")) 
 os.mkdir("testdir") 
 os.makedirs("a/b/c", exist_ok=True)
-os.rmdir("testdir")  
-os.remove("file.txt")  
+os.rmdir("testdir")
+
+#os.remove("file.txt")  
 
