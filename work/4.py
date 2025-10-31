@@ -78,3 +78,8 @@ def increment():
 
 increment()
 print(count)
+
+
+for _ in range(4):
+    increment()
+    print(count)
