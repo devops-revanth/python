@@ -81,5 +81,5 @@ for i in range(1,6):
 
 servers=["web1","db","backup"]
 servers.append("frontend")
-for index, name in enumerate(servers, start=1):
+for index, name in enumerate(servers, start=2):
     print(f"{index}.{name}")
