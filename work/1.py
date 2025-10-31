@@ -27,4 +27,12 @@ Keywords : if , elif , for , while , break , continue
 
 print(os.getcwd())
 print(os.getenv("HOME"))
+print(os.name)  
+print(os.environ)
+print(os.listdir()) 
+print(os.listdir("/var/log")) 
+os.mkdir("testdir") 
+os.makedirs("a/b/c", exist_ok=True)
+os.rmdir("testdir")  
+os.remove("file.txt")  
 
