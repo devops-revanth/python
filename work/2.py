@@ -24,5 +24,19 @@ for service in ["sshd" , "nginx" , "mysql"]:
 
 
 output = "CPU usage : 45%"
-usage = output.split(":")[1].strip()
-print(usage)
+usage = output.split(":")[1].strip().replace("%","")
+print(int(usage))
+
+output = "CPU utilization is : 45%"
+
+usage = output.split(":").strip().replace("%","")
+print(int(usage))
+
+
+
+#lists
+
+mounts = ["/" , "/tmp" , "/data" , "/home"]
+
+for m in mounts:
+    print(f"checking the disk usage : {m}")
