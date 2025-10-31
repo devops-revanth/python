@@ -40,3 +40,41 @@ restart_service()
 
 restart_service("nginx")
 
+
+# Return values - A function can return any datatype - string , list , dict or even another function
+
+def get_disk_status(disk_usage):
+    if disk_usage > 90:
+        return "Critical"
+    elif disk_usage > 75:
+        return "WARNING"
+    else:
+        return "OK"
+    
+status = get_disk_status(88)
+print(f"Disk status: {status}")
+
+
+
+## Local variable - Global Variable
+# Defined inside a function -> only usable within that function
+
+def check_user():
+    user = "admin" # local variable
+    print(f"{user}")
+        
+
+hostname = "server01"
+def show_host():
+    print(f"{hostname}")  #global variable
+
+show_host()
+
+
+count = 0
+def increment():
+    global count
+    count += 1
+
+increment()
+print(count)
