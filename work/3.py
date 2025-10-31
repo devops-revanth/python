@@ -94,3 +94,7 @@ status = ["UP" , "DOWN"]
 
 for h,s in zip(hosts, status):
     print(f"{h} -> {s}")
+
+
+for i in range(3):
+    print(f"{i}")
