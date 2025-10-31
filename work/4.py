@@ -16,3 +16,27 @@ def check_cpu(usage):
     
 print(check_cpu(75))
 print(check_cpu(92))
+
+
+# Function Arguments
+
+def greet(name , host):
+    print(f"Hello {name}, Welcome to {host}")
+
+greet("admin" , "server01")    #Positional Arguments
+
+
+#Keywork Arguments
+
+greet(host="server01" , name="root")
+
+#Default Arguments
+
+
+def restart_service(service="sshd"):
+    print(f"Restarting {service} service ...")
+
+restart_service()
+
+restart_service("nginx")
+
