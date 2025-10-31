@@ -60,3 +60,9 @@ while not service_up and attempt < 5:
     time.sleep(2)
 
 print(f"Service check completed")
+
+servers = ["web1","db1","cache1"]
+for s in servers:
+    if s == "db1":
+        print(f"{s} found! Stopping search")
+        break
