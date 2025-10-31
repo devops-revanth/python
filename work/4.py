@@ -83,3 +83,23 @@ print(count)
 for _ in range(4):
     increment()
     print(count)
+
+
+
+# args , kwargs
+
+# args - Multiple Positional Arguments
+
+def check_services(*services):
+    for s in services:
+        print(f"Checking status of {s}")
+
+check_services("sshd" , "nginx" , "systemd")
+
+## **kwargs -> Keyword Argumenrs as Dictionary
+
+def show_metrics(**data):
+    for k, v in data.items():
+        print(f"(k.uppper() : {v})")
+
+show_metrics(cpu=79 , mem=65 , disk=85)
