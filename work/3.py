@@ -66,3 +66,10 @@ for s in servers:
     if s == "db1":
         print(f"{s} found! Stopping search")
         break
+
+processes = ["sshd","systemd","zombie","nginx"]
+
+for p in processes:
+    if p == "zombie":
+        continue
+    print(f"Monitoring process: {p}")
