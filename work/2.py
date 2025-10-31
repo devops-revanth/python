@@ -29,7 +29,7 @@ print(int(usage))
 
 output = "CPU utilization is : 45%"
 
-usage = output.split(":").strip().replace("%","")
+usage = output.split(":")[1].strip().replace("%","")
 print(int(usage))
 
 
