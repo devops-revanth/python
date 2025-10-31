@@ -73,3 +73,7 @@ for p in processes:
     if p == "zombie":
         continue
     print(f"Monitoring process: {p}")
+
+
+for i in range(1,6):
+    print(f"Checking system{i}")
