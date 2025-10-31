@@ -100,6 +100,6 @@ check_services("sshd" , "nginx" , "systemd")
 
 def show_metrics(**data):
     for k, v in data.items():
-        print(f"{k.uppper()} : {v})")
+        print(f"{k.upper()} : {v})")
 
 show_metrics(cpu=79 , mem=65 , disk=85)
