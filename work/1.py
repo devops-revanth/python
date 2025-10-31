@@ -8,6 +8,5 @@ This is for learning python3 for Revanth Kumar G
 will practice all , one by one
 """
 
-username=input("Enter username:")
-
-print(f"User: {username}")
+username = input("Enter you name")
+print(f"You name is : {username}")
