@@ -25,3 +25,4 @@ for service in ["sshd" , "nginx" , "mysql"]:
 
 output = "CPU usage : 45%"
 usage = output.split(":")[1].strip()
+print(usage)
