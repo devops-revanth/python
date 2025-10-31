@@ -40,7 +40,7 @@ if cpu > 80:
 
 
 
-#Loops
+#Loops -- loop controls - continue , break , pass
 mounts=["/","/home","/data"]
 
 for m in mounts:
@@ -78,6 +78,7 @@ for p in processes:
 
 
 # range , enumerage , zip
+
 
 for i in range(1,6):
     print(f"Checking system{i}")
